@@ -1,0 +1,135 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #222;
+  text-align: center;
+}
+
+.header {
+  background: #009739;
+  color: white;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.showcase img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.phones {
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 230px;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: #009739;
+  font-weight: bold;
+}
+
+.contact {
+  background: #e8f9ee;
+  padding: 30px;
+}
+
+.number {
+  font-size: 20px;
+  color: #009739;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.whatsapp-btn,
+.email-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+}
+
+.email-btn {
+  background: #0072c6;
+  color: white;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5b;
+}
+
+.email-btn:hover {
+  background: #005999;
+}
+
+footer {
+  background: #009739;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Floating WhatsApp icon */
+.floating-whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 999;
+}
+
+.floating-whatsapp img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.floating-whatsapp img:hover {
+  transform: scale(1.1);
+}
